@@ -85,4 +85,39 @@ body {
   #reset:hover {
     background-color: #f2a365;
   }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    
+    #game {
+      width: 500px;
+      padding: 100px;
+      margin-top: 50%;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    .choice {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+    
+    #result {
+      font-size: 20px;
+    }
+    
+    #score {
+      font-size: 14px;
+      padding: 5px;
+    }
+    
+    #reset {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+  }
   
