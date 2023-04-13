@@ -10,7 +10,7 @@ body {
     padding: 20px;
     width: 90%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 0;
     height: 500px;
   }
   
@@ -19,6 +19,24 @@ body {
     font-size: 70px;
     text-align: center;
     margin-top: 0;
+  }
+
+  h2 {
+    color: #f2a365;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .rules {
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #42526e;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 5px;
+    text-align: center;
   }
   
   #choices {
