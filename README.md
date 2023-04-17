@@ -4,7 +4,7 @@
 
 This is my JavaScript project website. It is designed to be run a simple game which game is also responsive and usable on all viewports with a really simple design for UX.
 
-![screenshot](/workspace/Rock-Paper-Scissors/assets/images/rock-paper-scissors.jpg)
+![screenshot](assets/images/rock-paper-scissors.jpg)
 
 ## User Experience (UX)
 
