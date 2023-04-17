@@ -4,7 +4,7 @@
 
 This is my JavaScript project website. It is designed to be run a simple game which game is also responsive and usable on all viewports with a really simple design for UX.
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center">![screenshot](https://user-images.githubusercontent.com/119848497/232525935-c696a4ec-0a41-4bc6-a46b-f309952e404a.jpg)</h2>
 
 ## User Experience (UX)
 
