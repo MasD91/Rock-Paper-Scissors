@@ -1,142 +1,144 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fcf4e6;
+  font-family: 'Arial', sans-serif;
+  background-color: #fcf4e6;
+}
+
+#game {
+  background-color: #f4d9c6;
+  border: 5px solid #f2a365;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 0;
+  height: 500px;
+}
+
+h1 {
+  color: #f2a365;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 0;
+}
+
+h2 {
+  color: #f2a365;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.rules {
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #42526e;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+#choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.choice {
+  background-color: #f2a365;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 65px;
+  padding: 10px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.choice:hover {
+  background-color: #f58845;
+}
+
+#result {
+  color: #f58845;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#score {
+  background-color: #f2a365;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#score p {
+  margin: 0;
+}
+
+#score span {
+  font-weight: bold;
+}
+
+#reset {
+  background-color: #f58845;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  display: block;
+  margin: auto;
+}
+
+#reset:hover {
+  background-color: #f2a365;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
   }
-  
+
   #game {
-    background-color: #f4d9c6;
-    border: 5px solid #f2a365;
-    border-radius: 10px;
+    width: 100%;
     padding: 20px;
-    width: 90%;
-    margin: auto;
     margin-top: 0;
-    height: 500px;
+    height: auto;
   }
-  
+
   h1 {
-    color: #f2a365;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 0;
+    font-size: 32px;
   }
 
-  h2 {
-    color: #f2a365;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 10%;
-  }
-
-  .rules {
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    color: #42526e;
-    cursor: pointer;
-    font-size: 15px;
-    padding: 5px 5px;
-    text-align: center;
-  }
-  
-  #choices {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
   .choice {
-    background-color: #f2a365;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    font-size: 65px;
+    font-size: 32px;
     padding: 10px 20px;
-    text-align: center;
-    transition-duration: 0.4s;
-  }
-  
-  .choice:hover {
-    background-color: #f58845;
-  }
-  
-  #result {
-    color: #f58845;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  #score {
-    background-color: #f2a365;
-    border-radius: 5px;
-    color: white;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  #score p {
-    margin: 0;
-  }
-  
-  #score span {
-    font-weight: bold;
-  }
-  
-  #reset {
-    background-color: #f58845;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 10px 20px;
-    text-align: center;
-    transition-duration: 0.4s;
-    display: block;
-    margin: auto;
-  }
-  
-  #reset:hover {
-    background-color: #f2a365;
+    width: 100%;
+    margin-bottom: 10px;
   }
 
-  @media only screen and (max-width: 768px) {
-    body {
-      font-size: 14px;
-    }
-    
-    #game {
-      width: 500px;
-      padding: 100px;
-      margin-top: 0;
-    }
-    
-    h1 {
-      font-size: 24px;
-    }
-    
-    .choice {
-      font-size: 14px;
-      padding: 5px 10px;
-    }
-    
-    #result {
-      font-size: 20px;
-    }
-    
-    #score {
-      font-size: 14px;
-      padding: 5px;
-    }
-    
-    #reset {
-      font-size: 14px;
-      padding: 5px 10px;
-    }
+  #result {
+    font-size: 24px;
   }
-  
+
+  #score {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  #reset {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
