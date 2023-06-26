@@ -2,7 +2,9 @@
 
 [View the live project here.](https://masd91.github.io/Rock-Paper-Scissors/)
 
-This is my JavaScript project website. It is designed to be run a simple game which game is also responsive and usable on all viewports with a really simple design for UX.
+Project Goal
+
+The goal of this project is to create a responsive and user-friendly JavaScript game website for Rock-Paper-Scissors. The website will have a simple and intuitive design, ensuring a seamless and enjoyable experience for users on all viewports. Clear instructions and rules will be provided, allowing both first-time visitors and returning users to easily understand and play the game. The website will be regularly updated with new features to keep frequent users engaged and provide an element of novelty. Overall, the project aims to create a fun and accessible platform for players to compete in the classic game of Rock-Paper-Scissors
 
 ![screenshot](assets/images/rock-paper-scissors.jpg)
 
@@ -25,9 +27,9 @@ This is my JavaScript project website. It is designed to be run a simple game wh
         1. As a Frequent User, I want to check to see if there are any newly added features to the game.
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are peach pink and orange.
+        -   I have chosen a peach pink and orange color scheme for the website to create a fun and engaging atmosphere. The warm and vibrant colors aim to enhance the user experience and make the game more visually appealing. 
     -   #### Typography
-        -   The Arial font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Arial is a no nonsense font.
+        -   In terms of typography, I have used the Arial font as it is widely recognized and ensures easy readability across different devices. Additionally, I have incorporated Font Awesome icons to add visual interest and improve usability. These icons represent the rock, paper, and scissors options, making it easier for users to select their choices in the game. Overall, the styling and colors aim to create an enjoyable and visually pleasing experience for players.
     -   #### Imagery
         -   No imagery was used.
 
