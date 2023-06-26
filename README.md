@@ -164,7 +164,8 @@ $ git clone https://github.com/MasD91/Rock-Paper-Scissors
 
 ### Content
 
--   All content was written by the developer.
+-   Most of the content was written by, myself, the developer.
+-   A dev friend Ainsley Chang helped me with many issues including sizing for viewports, js code for reset button and js code for update score. 
 
 
 ### Acknowledgements
