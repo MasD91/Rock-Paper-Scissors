@@ -19,6 +19,7 @@ h1 {
   font-size: 70px;
   text-align: center;
   margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
