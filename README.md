@@ -74,10 +74,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and to be able to play the game with no hassle.
 
         1. Upon entering the site, users are automatically greeted to the game and the set of rules and instructions on the same page.
-        2. The main point is clear to see that it is a game.
-        3. The user has 4 options, 3 of which are part of the game and the 4th is to restart the game which are circled in the picture below.
+![Rules](assets/images/rules.jpg)
 
+        2. The main point is clear to see that it is a game.
+        3. The user has 4 options, 3 of which are part of the game and the 4th is to restart the game which are circled in the pictured below and also  shots of each button being tested.
+
+These are all the buttons that are selectable. 
 ![full page screenshot](assets/images/rock-paper-scissors-buttons.jpg)
+
+Once the Rock button is selected then the code runs to give you an outcome and in this case it is a tie so no score is incremented.
+![Rock](assets/images/rock.jpg)
+
+In this turn, we have selected paper and the computer has beat us and you will see the code has been incremented to a loss.
+![Paper](assets/images/paper.jpg)
+
+In the final option, we have beat the computer with scissors and you will see a point for us have been incremented.
+![Scissors](assets/images/scissors.jpg)
+
+If you are fed up of losing and embarrassed by your score, or, someone else wants to play, then you can select the Play Again button to wipe the slate clean and start again. 
+![Play again](assets/images/play-again.jpg)
+
+        4. There is also a youtube video now embeded which is also shown to be working.
+
+![Alt text](assets/images/youtube.jpg)
+
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content and the instructions.
 
