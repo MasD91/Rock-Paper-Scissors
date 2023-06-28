@@ -35,6 +35,16 @@ h2 {
   margin-top: 10%;
 }
 
+.iframe-container {
+  position: relative;
+  width: 560px;
+  height: 315px;
+}
+
+.iframe-video {
+  border: none;
+}
+
 .rules {
   font-weight: bold;
   border: none;
