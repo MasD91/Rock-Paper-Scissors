@@ -63,9 +63,9 @@ The goal of this project is to create a responsive and user-friendly JavaScript 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. I also used JSHINT to ensure all JS code was valid.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
--   [JSHint Validator] (https://jshint.com/)
+-   [W3C Markup Validator](assets/images/w3-html-validator.jpg)
+-   [W3C CSS Validator](assets/images/w3-css-validator.jpg) 
+-   [JSHINT Markup Validator](assets/images/jshint-validator.jpg)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -105,7 +105,8 @@ If you are fed up of losing and embarrassed by your score, or, someone else want
 
 
 ![full page screenshot](assets/images/r-p-s-full-page.jpg)
-    
+
+        2.
 
 -   #### Returning Visitor Goals
 
@@ -125,6 +126,11 @@ If you are fed up of losing and embarrassed by your score, or, someone else want
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as PC, Laptop, Smartphones and Tablets.
+![iPhone view](assets/images/iphone-view.jpg)
+![Tablet view](assets/images/ipad-view.jpg)
+![Tablet side view](assets/images/ipad-side-view.jpg)
+![Galaxy view](assets/images/samsung-view.jpg)
+
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
