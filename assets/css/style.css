@@ -1,7 +1,7 @@
 /* Global styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #fcf4e6;
+  background-color: #ffebcd; /* Light apricot background */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +10,8 @@ body {
 
 /* Game container */
 #game {
-  background-color: #f4d9c6;
-  border: 5px solid #f2a365;
+  background-color: #ffcc99; /* Peach container background */
+  border: 5px solid #ff9966; /* Coral border */
   border-radius: 10px;
   padding: 20px;
   width: 90%;
@@ -24,7 +24,7 @@ body {
 
 /* Game title */
 h1 {
-  color: #f2a365;
+  color: #ff9966; /* Coral title color */
   font-size: 70px;
   text-align: center;
   margin-top: 0;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .choice {
-  background-color: #f2a365;
+  background-color: #ff9966; /* Coral button background */
   border: none;
   border-radius: 5px;
   color: white;
@@ -51,12 +51,12 @@ h1 {
 }
 
 .choice:hover {
-  background-color: #f58845;
+  background-color: #ff8533; /* Slightly darker coral on hover */
 }
 
 /* Display result */
 #result {
-  color: #f58845;
+  color: #ff8533; /* Darker coral result color */
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -65,7 +65,7 @@ h1 {
 
 /* Display player and computer scores */
 #score {
-  background-color: #f2a365;
+  background-color: #ff9966; /* Coral score background */
   border-radius: 5px;
   color: white;
   font-size: 30px;
@@ -84,7 +84,7 @@ h1 {
 
 /* Play Again button */
 #reset {
-  background-color: #f58845;
+  background-color: #ff8533; /* Darker coral reset button background */
   border: none;
   border-radius: 5px;
   color: white;
@@ -98,7 +98,7 @@ h1 {
 }
 
 #reset:hover {
-  background-color: #f2a365;
+  background-color: #ff9966; /* Lighter coral on hover */
 }
 
 /* Media queries for responsiveness */
@@ -144,7 +144,7 @@ h1 {
 
 /* Display computer's choice */
 #computer-choice {
-  color: #f58845;
+  color: #ff8533; /* Darker coral computer choice color */
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -153,8 +153,8 @@ h1 {
 
 /* Rules of the game container */
 #rules-container {
-  background-color: #f4d9c6;
-  border: 5px solid #f2a365;
+  background-color: #ffcc99; /* Peach container background */
+  border: 5px solid #ff9966; /* Coral border */
   border-radius: 10px;
   padding: 20px;
   width: 90%;
@@ -167,7 +167,7 @@ h1 {
 
 /* Rules title */
 #rules-container h2 {
-  color: #f2a365;
+  color: #ff9966; /* Coral title color */
   font-size: 70px;
   text-align: center;
   margin-top: 0;
@@ -176,27 +176,4 @@ h1 {
 
 /* Rules paragraphs */
 #rules-container .rules {
-  color: #720707;
-  font-size: 18px; /* Adjust the font size as needed */
-  padding: 10px 0;
-  text-align: center;
-}
-
-/* Media queries for responsiveness for rules container */
-@media only screen and (max-width: 768px) {
-  /* Rules of the game container for smaller screens */
-  #rules-container {
-    width: 100%;
-    padding: 20px;
-    margin-top: 0;
-    height: auto;
-  }
-
-  #rules-container h2 {
-    font-size: 32px;
-  }
-
-  #rules-container .rules {
-    font-size: 14px; /* Adjust the font size as needed */
-  }
-}
+  color
