@@ -1,3 +1,4 @@
+/* Set the base styles for the entire page */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #fcf4e6;
@@ -7,6 +8,7 @@ body {
   padding: 20px;
 }
 
+/* Style the main game container */
 #game {
   background-color: #f4d9c6;
   border: 5px solid #f2a365;
@@ -20,6 +22,7 @@ body {
   justify-content: center;
 }
 
+/* Style the main heading */
 h1 {
   color: #f2a365;
   font-size: 70px;
@@ -28,6 +31,7 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Style the secondary heading */
 h2 {
   color: #f2a365;
   font-size: 70px;
@@ -35,16 +39,19 @@ h2 {
   margin-top: 10%;
 }
 
+/* Style the container for embedded video */
 .iframe-container {
   position: relative;
   width: 560px;
   height: 315px;
 }
 
+/* Style the embedded video itself */
 .iframe-video {
   border: none;
 }
 
+/* Style the rules text */
 .rules {
   font-weight: bold;
   border: none;
@@ -56,6 +63,7 @@ h2 {
   text-align: center;
 }
 
+/* Style the video container */
 #video-container {
   display: flex;
   justify-content: center;
@@ -63,18 +71,21 @@ h2 {
   width: 100%;
 }
 
+/* Style the embedded iframe */
 iframe {
   width: 100%;
   max-width: 560px;
   height: 315px;
 }
 
+/* Style the game choices container */
 #choices {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
 }
 
+/* Style the game choice buttons */
 .choice {
   background-color: #f2a365;
   border: none;
@@ -87,10 +98,12 @@ iframe {
   transition-duration: 0.4s;
 }
 
+/* Hover effect for game choice buttons */
 .choice:hover {
   background-color: #f58845;
 }
 
+/* Style the game result text */
 #result {
   color: #f58845;
   font-size: 50px;
@@ -99,6 +112,7 @@ iframe {
   margin-bottom: 20px;
 }
 
+/* Style the game score container */
 #score {
   background-color: #f2a365;
   border-radius: 5px;
@@ -109,14 +123,17 @@ iframe {
   margin-bottom: 20px;
 }
 
+/* Style the score paragraphs */
 #score p {
   margin: 0;
 }
 
+/* Style the score spans (for bold text) */
 #score span {
   font-weight: bold;
 }
 
+/* Style the reset button */
 #reset {
   background-color: #f58845;
   border: none;
@@ -131,10 +148,12 @@ iframe {
   margin: auto;
 }
 
+/* Hover effect for the reset button */
 #reset:hover {
   background-color: #f2a365;
 }
 
+/* Media query for responsive design on smaller screens */
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
