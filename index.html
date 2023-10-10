@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Rock Paper Scissors</title>
-    
-    <!-- Add a favicon to the website -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-    <!-- Include external CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    <!-- Include the Font Awesome icon kit for icons -->
     <script src="https://kit.fontawesome.com/ceb7a77ac8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Main game content -->
+  </head>
+  <body>
+    <!-- Game container -->
     <div id="game">
-        <h1>Rock, Paper, Scissors</h1>
-        <div id="choices">
-            <!-- Buttons for game choices with Font Awesome icons -->
-            <button class="choice" id="rock" aria-label="Rock"><i class="fa-regular fa-hand-back-fist" style="color: #ffffff;"></i></button>
-            <button class="choice" id="paper" aria-label="Paper"><i class="fa-regular fa-hand" style="color: #ffffff;"></i></button>
-            <button class="choice" id="scissors" aria-label="Scissors"><i class="fa-regular fa-hand-scissors" style="color: #ffffff;"></i></button>
-        </div>
-        <p id="result"></p>
-        <div id="score">
-            <p>WINS: <span id="player-score">0</span></p>
-            <p>LOSSES: <span id="computer-score">0</span></p>
-        </div>
-        <button id="reset">Play Again</button>
+      <h1>Rock, Paper, Scissors</h1>
+      
+      <!-- Player choices buttons -->
+      <div id="choices">
+        <button class="choice" id="rock" aria-label="Rock"><i class="fa-regular fa-hand-back-fist" style="color: #ffffff;"></i></button>
+        <button class="choice" id="paper" aria-label="Paper"><i class="fa-regular fa-hand" style="color: #ffffff;"></i></button>
+        <button class="choice" id="scissors" aria-label="Scissors"><i class="fa-regular fa-hand-scissors" style="color: #ffffff;"></i></button>
+      </div>
+      
+      <!-- Display result -->
+      <p id="result"></p>
+      
+      <!-- Display computer's choice -->
+      <p id="computer-choice"></p>
+
+      <!-- Display player and computer scores -->
+      <div id="score">
+        <p>WINS: <span id="player-score">0</span></p>
+        <p>LOSSES: <span id="computer-score">0</span></p>
+      </div>
+      
+      <!-- Display computer's choice -->
+      <p id="computer-choice"></p>
+      
+      <!-- Button to reset the game -->
+      <button id="reset">Play Again</button>
     </div>
 
-    <!-- Embedded YouTube video -->
+    <!-- Embedded video container -->
     <div class="iframe-container">
-        <iframe class="iframe-video" width="560" height="315" src="https://www.youtube.com/embed/ND4fd6yScBM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="iframe-video" width="560" height="315" src="https://www.youtube.com/embed/ND4fd6yScBM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+ 
+   <!-- Rules of the game container -->
+    <div id="rules-container">
+      <h2>RULES OF THE GAME</h2>
+      <p class="rules">1. Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</p>
+      <p class="rules">2. To score a point, you must achieve one of the three outcomes above against the computer.</p>
+      <p class="rules">3. You lose a point if the computer achieves one of the outcomes above.</p>
+      <p class="rules">4. No points will be scored for neither player or computer if both select the same option. This results in a tie.</p>
+      <p class="rules">5. Losing too much? Press Play Again, to reset scores!</p>
     </div>
 
-    <!-- Rules of the game -->
-    <div>
-        <h2>RULES OF THE GAME</h2>
-        <p class="rules">1. Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</p>
-        <p class="rules">2. To score a point, you must achieve one of the three outcomes above against the computer.</p>
-        <p class="rules">3. You lose a point if the computer achieves one of the outcomes above.</p>
-        <p class="rules">4. No points will be scored for neither player or computer if both select the same option. This results in a tie.</p>
-        <p class="rules">5. Losing too much? Press Play Again, to reset scores!</p>
-    </div>
     
-    <!-- Include JavaScript for game functionality -->
+    <!-- JavaScript file to control the game -->
     <script src="assets/javascript/script.js"></script>
-</body>
+  </body>
 </html>

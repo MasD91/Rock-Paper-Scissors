@@ -1,4 +1,4 @@
-/* Set the base styles for the entire page */
+/* Global styling */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #fcf4e6;
@@ -8,7 +8,7 @@ body {
   padding: 20px;
 }
 
-/* Style the main game container */
+/* Game container */
 #game {
   background-color: #f4d9c6;
   border: 5px solid #f2a365;
@@ -22,7 +22,7 @@ body {
   justify-content: center;
 }
 
-/* Style the main heading */
+/* Game title */
 h1 {
   color: #f2a365;
   font-size: 70px;
@@ -31,61 +31,13 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Style the secondary heading */
-h2 {
-  color: #f2a365;
-  font-size: 70px;
-  text-align: center;
-  margin-top: 10%;
-}
-
-/* Style the container for embedded video */
-.iframe-container {
-  position: relative;
-  width: 560px;
-  height: 315px;
-}
-
-/* Style the embedded video itself */
-.iframe-video {
-  border: none;
-}
-
-/* Style the rules text */
-.rules {
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  color: #42526e;
-  cursor: pointer;
-  font-size: 15px;
-  padding: 5px 5px;
-  text-align: center;
-}
-
-/* Style the video container */
-#video-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  width: 100%;
-}
-
-/* Style the embedded iframe */
-iframe {
-  width: 100%;
-  max-width: 560px;
-  height: 315px;
-}
-
-/* Style the game choices container */
+/* Player choice buttons */
 #choices {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
 }
 
-/* Style the game choice buttons */
 .choice {
   background-color: #f2a365;
   border: none;
@@ -98,12 +50,11 @@ iframe {
   transition-duration: 0.4s;
 }
 
-/* Hover effect for game choice buttons */
 .choice:hover {
   background-color: #f58845;
 }
 
-/* Style the game result text */
+/* Display result */
 #result {
   color: #f58845;
   font-size: 50px;
@@ -112,7 +63,7 @@ iframe {
   margin-bottom: 20px;
 }
 
-/* Style the game score container */
+/* Display player and computer scores */
 #score {
   background-color: #f2a365;
   border-radius: 5px;
@@ -123,17 +74,15 @@ iframe {
   margin-bottom: 20px;
 }
 
-/* Style the score paragraphs */
 #score p {
   margin: 0;
 }
 
-/* Style the score spans (for bold text) */
 #score span {
   font-weight: bold;
 }
 
-/* Style the reset button */
+/* Play Again button */
 #reset {
   background-color: #f58845;
   border: none;
@@ -148,12 +97,11 @@ iframe {
   margin: auto;
 }
 
-/* Hover effect for the reset button */
 #reset:hover {
   background-color: #f2a365;
 }
 
-/* Media query for responsive design on smaller screens */
+/* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
@@ -191,5 +139,64 @@ iframe {
   #reset {
     font-size: 18px;
     padding: 10px 20px;
+  }
+}
+
+/* Display computer's choice */
+#computer-choice {
+  color: #f58845;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Rules of the game container */
+#rules-container {
+  background-color: #f4d9c6;
+  border: 5px solid #f2a365;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Rules title */
+#rules-container h2 {
+  color: #f2a365;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Rules paragraphs */
+#rules-container .rules {
+  color: #720707;
+  font-size: 18px; /* Adjust the font size as needed */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Media queries for responsiveness for rules container */
+@media only screen and (max-width: 768px) {
+  /* Rules of the game container for smaller screens */
+  #rules-container {
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+    height: auto;
+  }
+
+  #rules-container h2 {
+    font-size: 32px;
+  }
+
+  #rules-container .rules {
+    font-size: 14px; /* Adjust the font size as needed */
   }
 }
