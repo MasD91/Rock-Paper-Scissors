@@ -1,17 +1,18 @@
 /* Global styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #ffebcd; /* Light apricot background */
+  background-color: #f7edda; /* Pale peach background */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  color: #3d3d3d; /* Dark gray text color */
 }
 
 /* Game container */
 #game {
-  background-color: #ffcc99;
-  border: 5px solid #ff9966;
+  background-color: #ffcc99; /* Light orange background */
+  border: 5px solid #ff6f69; /* Salmon border */
   border-radius: 10px;
   padding: 20px;
   width: 90%;
@@ -25,7 +26,7 @@ body {
 
 /* Game title */
 h1 {
-  color: #ff9966; /* Coral title color */
+  color: #ff6f69; /* Salmon title color */
   font-size: 70px;
   text-align: center;
   margin-top: 0;
@@ -40,10 +41,10 @@ h1 {
 }
 
 .choice {
-  background-color: #ff9966; /* Coral button background */
+  background-color: #ff6f69; /* Salmon button background */
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #ffffff; /* White text color */
   cursor: pointer;
   font-size: 65px;
   padding: 10px 20px;
@@ -52,12 +53,12 @@ h1 {
 }
 
 .choice:hover {
-  background-color: #ff8533; /* Slightly darker coral on hover */
+  background-color: #ff3e4d; /* Darker salmon on hover */
 }
 
 /* Display result */
 #result {
-  color: #ff8533; /* Darker coral result color */
+  color: #ff3e4d; /* Darker salmon result color */
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -66,9 +67,9 @@ h1 {
 
 /* Display player and computer scores */
 #score {
-  background-color: #ff9966; /* Coral score background */
+  background-color: #ff6f69; /* Salmon score background */
   border-radius: 5px;
-  color: white;
+  color: #ffffff; /* White text color */
   font-size: 30px;
   padding: 10px;
   text-align: center;
@@ -85,10 +86,10 @@ h1 {
 
 /* Play Again button */
 #reset {
-  background-color: #ff8533; /* Darker coral reset button background */
+  background-color: #ff3e4d; /* Darker salmon reset button background */
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #ffffff; /* White text color */
   cursor: pointer;
   font-size: 20px;
   padding: 10px 20px;
@@ -99,7 +100,7 @@ h1 {
 }
 
 #reset:hover {
-  background-color: #ff9966; /* Lighter coral on hover */
+  background-color: #ff6f69; /* Lighter salmon on hover */
 }
 
 /* Media queries for responsiveness */
@@ -145,7 +146,7 @@ h1 {
 
 /* Display computer's choice */
 #computer-choice {
-  color: #ff8533; /* Darker coral computer choice color */
+  color: #ff3e4d; /* Darker salmon computer choice color */
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -155,7 +156,7 @@ h1 {
 /* Rules of the game container */
 #rules-container {
   background-color: #ffcc99; /* Peach container background */
-  border: 5px solid #ff9966; /* Coral border */
+  border: 5px solid #ff6f69; /* Salmon border */
   border-radius: 10px;
   padding: 20px;
   width: 90%;
@@ -168,7 +169,7 @@ h1 {
 
 /* Rules title */
 #rules-container h2 {
-  color: #ff9966; /* Coral title color */
+  color: #ff6f69; /* Salmon title color */
   font-size: 70px;
   text-align: center;
   margin-top: 0;
@@ -177,7 +178,7 @@ h1 {
 
 /* Rules paragraphs */
 #rules-container .rules {
-  color: #ff8533; /* Darker coral text color */
+  color: #3d3d3d; /* Dark gray text color */
   font-weight: bold;
   border: none;
   border-radius: 5px;
@@ -191,6 +192,6 @@ h1 {
 .error-message {
   font-size: 24px;
   font-weight: bold;
-  color: #ff0000;
+  color: #ff3e4d; /* Darker salmon error message color */
   margin-top: 100px;
 }
